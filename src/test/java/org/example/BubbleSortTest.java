@@ -53,7 +53,7 @@ class BubbleSortTest {
     }
 
     @Test
-    void should_throw_runtime_exception_if_null_element_in_list(){
+    void should_throw_runtime_exception_if_null_input_list(){
         List input = null;
         assertThrows(RuntimeException.class, () -> {BubbleSort.sort(input);});
     }
