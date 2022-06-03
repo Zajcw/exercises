@@ -4,12 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f9006115-65b0-42d1-8d26-110841bf50fe" name="Changes" comment="Added for loop to remove null elements from the input list in sort method. Finished writing tests specified by exercise.">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/BalancedWordsCounter.java" afterDir="false" />
+    <list default="true" id="f9006115-65b0-42d1-8d26-110841bf50fe" name="Changes" comment="Started creating the count() method in BalancedWordsCounter.java. Replaced for loop in sort() method in BubbleSort.java that removed null elements to simpler one-liner). Renamed test in BubbleSortTest.java from &quot;should_throw_runtime_exception_if_null_element_in_list&quot; to &quot;should_throw_runtime_exception_if_null_input_list&quot;.">
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/BalancedWordsCounterTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/BubbleSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/BubbleSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/BalancedWordsCounter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/BalancedWordsCounter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/BubbleSortTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/BubbleSortTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,8 +33,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JUnit5 Test Class" />
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -183,7 +182,14 @@
       <option name="project" value="LOCAL" />
       <updated>1654120854592</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Started creating the count() method in BalancedWordsCounter.java. Replaced for loop in sort() method in BubbleSort.java that removed null elements to simpler one-liner). Renamed test in BubbleSortTest.java from &quot;should_throw_runtime_exception_if_null_element_in_list&quot; to &quot;should_throw_runtime_exception_if_null_input_list&quot;.">
+      <created>1654241372734</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1654241372734</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -200,6 +206,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial commit. First exercise BubbleSort done." />
     <MESSAGE value="Added for loop to remove null elements from the input list in sort method. Finished writing tests specified by exercise." />
-    <option name="LAST_COMMIT_MESSAGE" value="Added for loop to remove null elements from the input list in sort method. Finished writing tests specified by exercise." />
+    <MESSAGE value="Started creating the count() method in BalancedWordsCounter.java. Replaced for loop in sort() method in BubbleSort.java that removed null elements to simpler one-liner). Renamed test in BubbleSortTest.java from &quot;should_throw_runtime_exception_if_null_element_in_list&quot; to &quot;should_throw_runtime_exception_if_null_input_list&quot;." />
+    <option name="LAST_COMMIT_MESSAGE" value="Started creating the count() method in BalancedWordsCounter.java. Replaced for loop in sort() method in BubbleSort.java that removed null elements to simpler one-liner). Renamed test in BubbleSortTest.java from &quot;should_throw_runtime_exception_if_null_element_in_list&quot; to &quot;should_throw_runtime_exception_if_null_input_list&quot;." />
   </component>
 </project>
